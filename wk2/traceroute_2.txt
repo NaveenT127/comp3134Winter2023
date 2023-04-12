@@ -1,0 +1,31 @@
+traceroute to 146.190.248.226 (146.190.248.226), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.43.1)  10.083 ms  9.997 ms  9.972 ms
+ 2  * * *
+ 3  10.72.193.71 (10.72.193.71)  285.566 ms  285.552 ms 10.72.193.135 (10.72.193.135)  285.539 ms
+ 4  192.168.92.12 (192.168.92.12)  285.522 ms 192.168.92.8 (192.168.92.8)  285.508 ms 192.168.92.14 (192.168.92.14)  285.494 ms
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  103.198.140.170 (103.198.140.170)  198.551 ms  198.514 ms  204.054 ms
+12  49.45.4.82 (49.45.4.82)  204.015 ms 103.198.140.207 (103.198.140.207)  203.999 ms 103.198.140.247 (103.198.140.247)  203.986 ms
+13  103.198.140.207 (103.198.140.207)  203.971 ms 49.45.4.86 (49.45.4.86)  203.964 ms unknown.telstraglobal.net (210.57.38.112)  203.950 ms
+14  unknown.telstraglobal.net (210.57.38.112)  203.940 ms unknown.telstraglobal.net (210.57.38.114)  204.183 ms  204.174 ms
+15  if-be-40-2.ecore1.svq-singapore.as6453.net (120.29.214.101)  408.998 ms ix-ae-24-0.thar1.svq-singapore.as6453.net (180.87.96.129)  314.056 ms  313.942 ms
+16  if-be-40-2.ecore1.svq-singapore.as6453.net (120.29.214.101)  313.885 ms if-ae-49-2.tcore1.tv2-tokyo.as6453.net (120.29.215.103)  313.841 ms  313.803 ms
+17  if-ae-49-2.tcore1.tv2-tokyo.as6453.net (120.29.215.103)  313.771 ms if-et-21-2.hcore1.kv8-chiba.as6453.net (120.29.217.67)  204.248 ms *
+18  if-et-21-2.hcore1.kv8-chiba.as6453.net (120.29.217.67)  204.185 ms * if-ae-5-2.tcore2.sv1-santaclara.as6453.net (209.58.86.142)  288.342 ms
+19  * if-ae-28-7.tcore2.sv1-santaclara.as6453.net (209.58.86.18)  294.760 ms if-ae-28-2.tcore2.sv1-santaclara.as6453.net (209.58.86.200)  296.502 ms
+20  * if-ae-1-2.tcore2.sqn-sanjose.as6453.net (63.243.205.2)  308.805 ms *
+21  if-ae-1-2.tcore2.sqn-sanjose.as6453.net (63.243.205.2)  311.995 ms * *
+22  * if-ae-22-2.tcore1.ct8-chicago.as6453.net (64.86.79.2)  275.277 ms  287.510 ms
+23  if-ae-8-2.tcore2.tnk-toronto.as6453.net (66.110.48.1)  301.263 ms  280.285 ms if-ae-22-2.tcore1.ct8-chicago.as6453.net (64.86.79.2)  284.515 ms
+24  if-ae-2-2.tcore1.tnk-toronto.as6453.net (64.86.33.89)  284.662 ms  306.978 ms if-ae-8-2.tcore2.tnk-toronto.as6453.net (66.110.48.1)  279.521 ms
+25  if-ae-2-2.tcore1.tnk-toronto.as6453.net (64.86.33.89)  288.438 ms 63.243.172.34 (63.243.172.34)  304.655 ms if-ae-2-2.tcore1.tnk-toronto.as6453.net (64.86.33.89)  294.264 ms
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

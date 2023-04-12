@@ -1,0 +1,66 @@
+nmap -p 1-1000 example.com facebook.com
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-04-13 01:01 IST
+Nmap scan report for example.com (93.184.216.34)
+Host is up (0.32s latency).
+Other addresses for example.com (not scanned): 2606:2800:220:1:248:1893:25c8:1946
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for facebook.com (157.240.228.35)
+Host is up (0.085s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f168:81:face:b00c:0:25de
+rDNS record for 157.240.228.35: edge-star-mini-shv-01-tir2.facebook.com
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp open   https
+843/tcp closed unknown
+
+Nmap done: 2 IP addresses (2 hosts up) scanned in 89.51 seconds
+
+---------------------------------------------------------------------------------
+nmap -p 80 example.com
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-04-13 01:05 IST
+Nmap scan report for example.com (93.184.216.34)
+Host is up (0.48s latency).
+Other addresses for example.com (not scanned): 2606:2800:220:1:248:1893:25c8:1946
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.95 seconds
+
+---------------------------------------------------------------------------------
+
+nmap -p 1000-2000 example.com
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-04-13 01:06 IST
+Nmap scan report for example.com (93.184.216.34)
+Host is up (0.27s latency).
+Other addresses for example.com (not scanned): 2606:2800:220:1:248:1893:25c8:1946
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+1119/tcp closed bnetgame
+1935/tcp closed rtmp
+
+Nmap done: 1 IP address (1 host up) scanned in 18.45 seconds
+
+--------------------------------------------------------------------------------
+
+sudo nmap -f google.com
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-04-13 01:07 IST
+Nmap scan report for google.com (142.250.76.46)
+Host is up (0.084s latency).
+Other addresses for google.com (not scanned): 2404:6800:4007:82c::200e
+rDNS record for 142.250.76.46: maa03s36-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.09 seconds
