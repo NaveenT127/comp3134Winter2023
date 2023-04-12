@@ -1,0 +1,11 @@
+.cache
+.config
+.local
+.ssh
+.vscode-server
+.bash_history
+.bashrc
+.cloud-locale-test.skip
+.digitalocean_password
+.profile
+.wger-hsts
