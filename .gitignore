@@ -8,4 +8,6 @@
 .cloud-locale-test.skip
 .digitalocean_password
 .profile
-.wger-hsts
+.wget-hsts
+snap
+.gitconfig
