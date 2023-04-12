@@ -1,0 +1,29 @@
+1. A server port is a numbered virtual location on a computer where network services can
+listen for incoming connections from clients. Ports are assigned unique numbers between 0 and 65535, 
+with well-known ports reserved for specific services and registered and dynamic ports available for other 
+applications. Clients connect to a server's IP address and port number to access a specific service.
+
+
+2. The server port range refers to the range of port numbers that can be used by network services running on 
+a server to listen for incoming connections from clients. The port range is typically between 0 and 65535, with 
+well-known ports (0-1023) reserved for specific services, registered ports (1024-49151) available for other 
+applications, and dynamic or private ports (49152-65535) available for temporary use by any application. 
+The specific range of ports used by a server depends on the services running on it and the configuration of the network.
+
+
+3. To represent the number 65535, we need 16 bits because 2^16 = 65536, and 16 bits can represent 2^16 distinct values 
+ranging from 0 to 65535.
+
+
+4. 
+
+HTTP - Port 80
+HTTPS - Port 443
+FTP - Port 21
+SSH - Port 22
+Telnet - Port 23
+SMTP - Port 25
+DNS - Port 53
+DHCP - Port 67/68
+POP3 - Port 110
+IMAP - Port 143
