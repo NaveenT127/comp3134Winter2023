@@ -1,0 +1,63 @@
+Command 1 : man iptables
+
+SYNOPSIS
+       iptables [-t table] {-A|-C|-D} chain rule-specification
+
+       ip6tables [-t table] {-A|-C|-D} chain rule-specification
+
+       iptables [-t table] -I chain [rulenum] rule-specification
+
+       iptables [-t table] -R chain rulenum rule-specification
+
+       iptables [-t table] -D chain rulenum
+
+       iptables [-t table] -S [chain [rulenum]]
+
+       iptables [-t table] {-F|-L|-Z} [chain [rulenum]] [options...]
+
+       iptables [-t table] -N chain
+
+       iptables [-t table] -X [chain]
+
+       iptables [-t table] -P chain target
+
+       iptables [-t table] -E old-chain-name new-chain-name
+
+       rule-specification = [matches...] [target]
+
+       match = -m matchname [per-match-options]
+
+       target = -j targetname [per-target-options]
+
+DESCRIPTION
+       Iptables  and  ip6tables  are  used to set up, maintain, and inspect the tables of
+       IPv4 and IPv6 packet filter rules in the Linux kernel.  Several  different  tables
+       may be defined.  Each table contains a number of built-in chains and may also con‐
+       tain user-defined chains.
+
+       Each chain is a list of rules which can match a set of packets.  Each rule  speci‐
+       fies  what to do with a packet that matches.  This is called a `target', which may
+       be a jump to a user-defined chain in the same table.
+-------------------------------------------------------------------
+
+Command 2 : apt-get update
+
+
+Hit:1 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease
+Hit:2 http://mirrors.digitalocean.com/ubuntu focal InRelease                                                                    
+Hit:3 http://mirrors.digitalocean.com/ubuntu focal-updates InRelease                                                            
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease                                 
+Hit:5 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease    
+Hit:6 http://mirrors.digitalocean.com/ubuntu focal-backports InRelease
+Reading package lists... Done
+
+
+-------------------------------------------------------------------
+
+Command 3 : apt-get install iptables
+
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+iptables is already the newest version (1.8.4-3ubuntu2).
+iptables set to manually installed.
