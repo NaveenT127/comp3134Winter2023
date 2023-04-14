@@ -1,0 +1,18 @@
+Observations:
+
+1. When navigating to the form and typing a valid English word, the word is submitted as a search 
+term via a GET request and the results page is displayed with the search term displayed at the top of the page.
+
+2. When navigating to the URL and typing an invalid English word after the /browse/ section of the URL,
+the server returns a 404 error page.
+
+3. When navigating to the form and typing the text <script>alert('hello')</script>, the text is submitted as a
+search term via a GET request and the results page is displayed with the text displayed at the top of the page. 
+However, the text is not executed as JavaScript code and instead is displayed as plain text.
+
+4. When navigating to the URL and typing the text <script>alert('hello')</script> after the term= section of the 
+URL, the text is submitted as a search term via a GET request and the results page is displayed with the text 
+displayed at the top of the page. However, the text is not executed as JavaScript code and instead is displayed as plain text.
+
+
+

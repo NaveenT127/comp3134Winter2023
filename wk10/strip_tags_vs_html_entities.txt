@@ -1,0 +1,10 @@
+The difference between using strip_tags() and htmlentities() to sanitize user input is that strip_tags() 
+removes HTML tags from the input, while htmlentities() converts special characters to their corresponding 
+HTML entities, preventing them from being interpreted as code by the browser.
+
+strip_tags() can be useful when you want to allow some HTML tags but remove others. For example, you 
+might allow <b> and <i> tags for bold and italic text, but remove <script> and <iframe> tags for security reasons.
+
+On the other hand, htmlentities() is useful when you want to display user input on a web page 
+without allowing any HTML tags. It converts special characters such as <, >, and & to their corresponding
+HTML entities, which will be displayed as plain text by the browser.
