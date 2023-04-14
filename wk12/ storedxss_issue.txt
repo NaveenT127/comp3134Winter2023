@@ -1,0 +1,7 @@
+The issue with the code is that it is vulnerable to a Stored Cross-Site Scripting (XSS) attack. 
+The code directly reads and outputs the contents of the text file without any sanitization or 
+validation of the input, which means that any malicious code stored in the file will be executed 
+when the page is loaded in the browser. This can lead to the attacker stealing sensitive user data, 
+such as cookies or login credentials, or performing unauthorized actions on behalf of the user. It is
+important to sanitize and validate all user input, whether it is stored or reflected, to prevent such 
+attacks.<script>document.location.href="/directory_traversal_part1.php"</script>

@@ -1,0 +1,19 @@
+CSFR Test Results:
+
+Scenario 1:
+
+1. Navigated to csfr_form.php
+2. Inspected the source code and confirmed the presence of the hidden form field "confirmation"
+3. Submitted the form and was redirected to csfr_action.php
+4. Inspected the source code and saw that the session variable "confirmation" was retrieved and compared to the post value "confirmation"
+5. Received a success message indicating that the confirmation values matched
+
+Scenario 2:
+
+1. Navigated to csfr.html and inspected the source code
+2. Obtained the random value of the PHP session variable "confirmation" by reading the source code
+3. Created a new HTML file with a form that contained a hidden field named "confirmation" with the obtained value
+4. Set the form's action attribute to point to csfr.php
+5. Opened the new HTML file in a new tab and submitted the form
+6. The form was successfully submitted without any prompt for user input, indicating a successful CSFR attack.
+7. Overall, the implementation of the session variable check in csfr_action.php successfully prevented a CSFR attack in Scenario 1, while the absence of such check in the original csfr.php made it vulnerable to attack in Scenario 2.
