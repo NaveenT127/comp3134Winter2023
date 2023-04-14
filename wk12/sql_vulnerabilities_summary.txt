@@ -1,0 +1,14 @@
+The code appears to be vulnerable to SQL injection attacks. The user input from the form field is directly 
+concatenated into the SQL query without any proper sanitization or parameterization. This means that an attacker 
+could potentially input malicious SQL code as the form input, causing the query to execute unintended actions or 
+leak sensitive data.
+
+To prevent SQL injection attacks, it's important to use prepared statements or parameterized queries, which separate
+the user input from the SQL query execution. Additionally, input sanitization can be used to 
+filter out any potentially malicious characters or patterns in the user input.
+
+In this updated version of the code, we use a prepared statement with a parameter placeholder to
+ensure that the user input is not directly included in the SQL query. The bind_param() method is used 
+to bind the search term to the parameter placeholder, and the execute() method is used to execute the SQL 
+statement. The bind_result() method is used to bind the result columns to variables, and the fetch() method
+is used to fetch the results and display them in an HTML table.
