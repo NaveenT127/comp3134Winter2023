@@ -1,0 +1,5 @@
+To mitigate the problem of exposing comments that contain sensitive information, 
+we converted all HTML comments to PHP comments in the source code. This ensures that the 
+comments are not visible in the page source and are only visible in the source code of the PHP 
+file. By doing this, we can ensure that any sensitive information contained in the comments is not 
+exposed to unauthorized individuals who may view the page source.

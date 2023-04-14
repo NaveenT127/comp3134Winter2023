@@ -1,0 +1,7 @@
+To mitigate the two issues in directory_traversal_part1.php as follows:
+
+To prevent the user from viewing files and folders before the html directory, we can use the basename() function to extract the last component of the requested path (i.e. the directory name), and compare it with the html directory name. If they don't match, we can exit the script with an error message.
+
+To prevent the user from attempting to look at folders that do not exist, we can use the file_exists() function to check if the requested path exists and is indeed a directory. If it does not exist, we can exit the script with an error message.
+
+Additionally, to prevent the user from passing a filename instead of a directory name, we can use the strpos() function to check if the requested path contains a dot, which would indicate the presence of a file name. If so, we can exit the script with an error message.

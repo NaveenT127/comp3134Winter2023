@@ -1,0 +1,8 @@
+1. Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+2. [../] - in the $_GET method they are using one step back from the current directory

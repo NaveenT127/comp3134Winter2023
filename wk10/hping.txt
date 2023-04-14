@@ -1,0 +1,4 @@
+1. sudo hping3 -c 10000 -S -a 127.0.0.1 google.com
+2. sudo hping3 -c 9000 -2 -a 127.0.0.1 -i u1000 github.com
+3. sudo hping3 -c 11000 -d 1024 -i u13 -I eth0 -1 google.com
+
